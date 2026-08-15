@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/Focus-Generative%20AI%20%26%20RAG-6C63FF?style=flat-square">
 <img src="https://img.shields.io/badge/Based%20in-Algeria-A78BFA?style=flat-square">
 
-[LinkedIn](YOUR_LINKEDIN_URL) &nbsp;·&nbsp; [Portfolio](YOUR_PORTFOLIO_URL) &nbsp;·&nbsp; [Email](mailto:youremail@example.com) &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/yourhandle)
+[LinkedIn](YOUR_LINKEDIN_URL) &nbsp;·&nbsp; [Portfolio](YOUR_PORTFOLIO_URL) &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/sihemdrissi)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ## About
 
-M.Sc. in Data Science and Intelligent Systems, Université Constantine 2. Background in end-to-end ML pipeline development, currently focused on generative AI — retrieval-augmented generation, LLM application architecture, and agentic systems. Actively pursuing AI Engineer / GenAI roles.
+M.Sc. in Data Science and Intelligent Systems. Background in end-to-end ML pipeline development, currently focused on generative AI — retrieval-augmented generation, LLM application architecture, and agentic systems. Actively pursuing AI Engineer / GenAI roles.
 
 <br>
 
@@ -38,19 +38,6 @@ M.Sc. in Data Science and Intelligent Systems, Université Constantine 2. Backgr
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-**🕌 Bawsala**
-*Arabic LLM Tutoring System*
-
-LLM-based tutoring application for Arabic-language instruction, with a retrieval layer designed to ground responses in course material.
-
-<img src="https://img.shields.io/badge/LLMs-6C63FF?style=flat-square">
-<img src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square">
-<img src="https://img.shields.io/badge/Arabic%20NLP-A78BFA?style=flat-square">
-
-[Repository →](https://github.com/)
-
 </td>
 <td width="50%" valign="top">
 
@@ -65,20 +52,21 @@ End-to-end regression pipeline: K-Fold target encoding, `Pipeline`/`ColumnTransf
 [Kaggle →](https://kaggle.com/)
 
 </td>
-</tr>
-<tr>
+
 <td width="50%" valign="top">
 
-**🎥 Sentube**
-*YouTube Sentiment Analysis*
+**🩺 Diabetes Prediction API**
+*Model Inference with FastAPI*
 
-Sentiment analysis pipeline evaluating alignment between comment sentiment and video content.
+Classification model served behind a FastAPI endpoint — request validation, JSON response schema, and reproducible model inference outside the notebook.
 
-<img src="https://img.shields.io/badge/NLP-EC4899?style=flat-square">
-<img src="https://img.shields.io/badge/Sentiment%20Analysis-F472B6?style=flat-square">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/Model%20Serving-14B8A6?style=flat-square">
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
 
 [Repository →](https://github.com/)
-
+</tr>
+<tr>
 </td>
 <td width="50%" valign="top">
 
@@ -120,12 +108,7 @@ Convolutional neural network trained to distinguish authentic images from AI-gen
 
 <br>
 
-## GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" width="48%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
 
 <br>
 
