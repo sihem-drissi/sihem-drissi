@@ -6,7 +6,11 @@
 
 **AI Engineer · Generative AI · RAG · LLM Applications**
 
-[LinkedIn](YOUR_LINKEDIN_URL) · [Portfolio](YOUR_PORTFOLIO_URL) · [Email](mailto:youremail@example.com)
+<img src="https://img.shields.io/badge/Status-Open%20to%20Work-22C55E?style=flat-square">
+<img src="https://img.shields.io/badge/Focus-Generative%20AI%20%26%20RAG-6C63FF?style=flat-square">
+<img src="https://img.shields.io/badge/Based%20in-Algeria-A78BFA?style=flat-square">
+
+[LinkedIn](YOUR_LINKEDIN_URL) &nbsp;·&nbsp; [Portfolio](YOUR_PORTFOLIO_URL) &nbsp;·&nbsp; [Email](mailto:youremail@example.com) &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/yourhandle)
 
 </div>
 
@@ -14,43 +18,83 @@
 
 ## About
 
-M.Sc. in Data Science and Intelligent Systems, Université Constantine 2. Background in building end-to-end ML pipelines, currently focused on generative AI — retrieval-augmented generation, LLM application architecture, and agentic systems.
+M.Sc. in Data Science and Intelligent Systems, Université Constantine 2. Background in end-to-end ML pipeline development, currently focused on generative AI — retrieval-augmented generation, LLM application architecture, and agentic systems. Actively pursuing AI Engineer / GenAI roles.
 
 <br>
 
 ## Focus Areas
 
-| Area | Scope |
-|---|---|
-| **Generative AI** | LLM applications, prompting, Transformer architectures |
-| **RAG** | Embeddings, vector search, retrieval pipelines |
-| **AI Agents** | Tool use, multi-step workflows |
-| **AI Engineering** | APIs, model serving, application architecture |
-| **Deployment** | Docker, cloud AI, LLMOps |
+<table>
+<tr><td width="30%"><b>🧠 Generative AI</b></td><td>LLM applications, prompting, Transformer architectures</td></tr>
+<tr><td><b>🔍 RAG</b></td><td>Embeddings, vector search, retrieval pipeline design</td></tr>
+<tr><td><b>🤖 AI Agents</b></td><td>Tool use, multi-step workflows</td></tr>
+<tr><td><b>⚙️ AI Engineering</b></td><td>APIs, model serving, application architecture</td></tr>
+<tr><td><b>☁️ Deployment</b></td><td>Docker, cloud AI, LLMOps</td></tr>
+</table>
 
 <br>
 
 ## Projects
 
-### Bawsala — Arabic LLM Tutoring System
-An LLM-based tutoring application built for Arabic-language instruction, with a retrieval layer designed to ground responses in course material rather than relying on model recall alone.
-`LLMs` `RAG` `Arabic NLP`
-→ [Repository](https://github.com/)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Stack Overflow Developer Survey — Salary Prediction
-End-to-end regression pipeline for predicting developer compensation. Includes K-Fold target encoding, `Pipeline`/`ColumnTransformer` design, leakage prevention, RandomizedSearchCV tuning, model ensembling, and bootstrap confidence intervals for uncertainty estimation.
-`Python` `scikit-learn` `Pandas`
-→ [Kaggle](https://kaggle.com/)
+**🕌 Bawsala**
+*Arabic LLM Tutoring System*
 
-### Sentube — YouTube Sentiment Analysis
-Sentiment analysis pipeline for YouTube content, built to evaluate alignment between comment sentiment and video content.
-`NLP` `Sentiment Analysis`
-→ [Repository](https://github.com/)
+LLM-based tutoring application for Arabic-language instruction, with a retrieval layer designed to ground responses in course material.
 
-### CNN Fake Image Classifier
+<img src="https://img.shields.io/badge/LLMs-6C63FF?style=flat-square">
+<img src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square">
+<img src="https://img.shields.io/badge/Arabic%20NLP-A78BFA?style=flat-square">
+
+[Repository →](https://github.com/)
+
+</td>
+<td width="50%" valign="top">
+
+**📊 Salary Prediction**
+*Stack Overflow Developer Survey*
+
+End-to-end regression pipeline: K-Fold target encoding, `Pipeline`/`ColumnTransformer` design, leakage prevention, RandomizedSearchCV, ensembling, bootstrap confidence intervals.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
+
+[Kaggle →](https://kaggle.com/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🎥 Sentube**
+*YouTube Sentiment Analysis*
+
+Sentiment analysis pipeline evaluating alignment between comment sentiment and video content.
+
+<img src="https://img.shields.io/badge/NLP-EC4899?style=flat-square">
+<img src="https://img.shields.io/badge/Sentiment%20Analysis-F472B6?style=flat-square">
+
+[Repository →](https://github.com/)
+
+</td>
+<td width="50%" valign="top">
+
+**🖼️ Fake Image Classifier**
+*CNN-based Detection*
+
 Convolutional neural network trained to distinguish authentic images from AI-generated or manipulated ones.
-`Deep Learning` `Computer Vision`
-→ [Repository](https://github.com/)
+
+<img src="https://img.shields.io/badge/Deep%20Learning-F59E0B?style=flat-square&logo=tensorflow&logoColor=white">
+<img src="https://img.shields.io/badge/Computer%20Vision-EF4444?style=flat-square&logo=pytorch&logoColor=white">
+
+[Repository →](https://github.com/)
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -70,7 +114,7 @@ Convolutional neural network trained to distinguish authentic images from AI-gen
 <img src="https://img.shields.io/badge/LLMOps-F59E0B?style=for-the-badge&logoColor=white">
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
 
-<br><br>
+<br>
 
 ## GitHub Stats
 
@@ -78,17 +122,6 @@ Convolutional neural network trained to distinguish authentic images from AI-gen
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" width="48%" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
-
-<br><br>
-
-## Currently
-
-<img src="https://img.shields.io/badge/Status-Open%20to%20Work-22C55E?style=for-the-badge">
-<img src="https://img.shields.io/badge/Focus-Generative%20AI%20%26%20RAG-6C63FF?style=for-the-badge">
-
-- Deepening production-level RAG and agent design
-- Applying for AI Engineer / GenAI roles
-- Preparing for IELTS
 
 <br>
 
