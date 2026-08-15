@@ -49,7 +49,7 @@ End-to-end regression pipeline: K-Fold target encoding, `Pipeline`/`ColumnTransf
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
 
-[Kaggle →](https://kaggle.com/)
+[Repository →](https://github.com/sihem-drissi/stack-overflow-salary-prediction/)
 
 </td>
 
@@ -64,7 +64,7 @@ Classification model served behind a FastAPI endpoint — request validation, JS
 <img src="https://img.shields.io/badge/Model%20Serving-14B8A6?style=flat-square">
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
 
-[Repository →](https://github.com/)
+[Repository →](https://github.com/sihem-drissi/diabetes-risk-predictor)
 </tr>
 <tr>
 </td>
