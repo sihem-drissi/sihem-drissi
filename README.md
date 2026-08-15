@@ -78,7 +78,7 @@ Convolutional neural network trained to distinguish authentic images from AI-gen
 <img src="https://img.shields.io/badge/Deep%20Learning-F59E0B?style=flat-square&logo=tensorflow&logoColor=white">
 <img src="https://img.shields.io/badge/Computer%20Vision-EF4444?style=flat-square&logo=pytorch&logoColor=white">
 
-[Repository →](https://github.com/)
+[Repository →](https://github.com/sihem-drissi/cnn-for-ai-generated-image-classification)
 
 </td>
 </tr>
