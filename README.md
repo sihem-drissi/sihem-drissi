@@ -1,169 +1,256 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/banner.png" width="100%" alt="Sihem Drissi — AI Engineer">
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%2C%20I'm%20Sihem%20(Maya)%20✨&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20%26%20AI%20%7C%20Turning%20Numbers%20Into%20Decisions&descAlignY=55&descSize=18" width="100%"/>
+<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=M.Sc.+in+Data+Science+%26+Intelligent+Systems;Building+ML+pipelines+that+actually+work;Currently+job-hunting+%E2%80%94+let's+talk!;NLP+%7C+Computer+Vision+%7C+LLMs" alt="Typing SVG" />
+<h1 align="center">Sihem Drissi</h1>
 
-<br/>
+<p align="center">
+  <strong>AI Engineer · Generative AI · LLM Applications · RAG · AI Agents</strong>
+</p>
 
-<a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://www.linkedin.com/in/yourhandle"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="https://www.kaggle.com/yourhandle"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"></a>
-<a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="YOUR_PORTFOLIO_URL">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="YOUR_EMAIL_URL">Contact</a>
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=a78bfa&label=PROFILE+VIEWS" alt="profile views"/>
+---
 
-</div>
+## About
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+I am an early-career **AI Engineer** with a background in Data Science, focused on understanding how intelligent applications are designed, built, and brought into production.
 
-## 🧭 About Me
+My current work sits at the intersection of **Generative AI, LLM applications, RAG, AI agents, APIs, and LLMOps**.
 
-```yaml
-name: Sihem "Maya" Drissi
-role: Data Scientist / AI Engineer (job-hunting!)
-education: M.Sc. Data Science & Intelligent Systems, Université Constantine 2
-location: Algeria 🇩🇿
-looking_for: [Data Analyst, AI Engineer, Data & Infrastructure Engineer]
-status: open_to_work
-philosophy: "real and useful > polished and empty"
-side_quest: building a wellness brand called "Hiya" ✨
+I am less interested in simply using a tool than in understanding the system behind it — its architecture, trade-offs, limitations, and path to production.
+
+> **Build with purpose. Understand the system. Keep improving.**
+
+---
+
+## Focus
+
+| Area                  | Current Focus                                 |
+| --------------------- | --------------------------------------------- |
+| **Generative AI**     | LLM applications, prompting, Transformers     |
+| **Knowledge Systems** | RAG, embeddings, vector search, retrieval     |
+| **AI Agents**         | Tool use, workflows, agentic systems          |
+| **AI Engineering**    | APIs, model serving, application architecture |
+| **Deployment**        | Docker, cloud AI, LLMOps                      |
+| **Foundations**       | Python, ML, data processing, system design    |
+
+---
+
+## Technology
+
+<p align="center">
+
+**AI & Machine Learning**
+
+`Python` · `PyTorch` · `Scikit-learn` · `Transformers`
+
+**Generative AI**
+
+`LLMs` · `RAG` · `Embeddings` · `Vector Search` · `AI Agents`
+
+**Backend**
+
+`FastAPI` · `Pydantic` · `REST APIs` · `Uvicorn`
+
+**Cloud & Infrastructure**
+
+`Docker` · `Git` · `GCP` · `Vertex AI` · `LLMOps`
+
+</p>
+
+---
+
+## Selected Work
+
+### Stack Overflow Developer Survey — Salary Prediction
+
+A machine learning project using the Stack Overflow Developer Survey to investigate and predict developer compensation.
+
+The project focuses on building a complete, reproducible ML workflow rather than simply training a model.
+
+**Highlights**
+
+* Exploratory data analysis and data-quality assessment
+* Salary distribution and outlier analysis
+* Feature engineering
+* High-cardinality categorical encoding
+* Target encoding
+* `Pipeline` and `ColumnTransformer`
+* Leakage prevention
+* Model comparison
+* Random Forest and HistGradientBoosting
+* Model evaluation and interpretation
+
+**Repository:** `YOUR_SALARY_PROJECT_URL`
+
+---
+
+### Retrieval-Augmented Generation
+
+Exploring how LLM applications can combine generative models with external knowledge.
+
+```text
+Documents
+    ↓
+Processing
+    ↓
+Embeddings
+    ↓
+Vector Search
+    ↓
+Relevant Context
+    ↓
+LLM
+    ↓
+Grounded Response
 ```
 
-- 🔭 Actively searching for my next role in **Data Science / AI**
-- 💼 Open to full-time, freelance, and interesting collaborations
-- 🧠 I care about production-ready ML, not just `model.fit()` and a notebook that ends there
-- 🌱 Also building **Hiya** — a wellness & self-care brand, on the side
-- 💬 Ask me about target encoding, bootstrap confidence intervals, or Arabic NLP
-- ⚡ Fun fact: I'd rather ship something real and imperfect than polish something that never ships
+The goal is to understand RAG as a **system architecture**, not simply as a library feature.
 
-<br/>
+---
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+### AI Model Serving
 
-## 🚀 Featured Projects
+Building APIs around machine-learning models using FastAPI.
 
-<div align="center">
+```text
+Client
+  ↓
+REST API
+  ↓
+Validation
+  ↓
+Preprocessing
+  ↓
+Model
+  ↓
+Prediction
+  ↓
+JSON Response
+```
 
-<table>
-<tr>
-<td width="50%" valign="top">
+This work is helping me bridge the gap between **machine learning experimentation and deployable AI applications**.
 
-### 📊 Stack Overflow Salary Prediction
-End-to-end regression pipeline predicting developer salaries — K-Fold target encoding, RandomizedSearchCV tuning, ensembling, and bootstrap confidence intervals for honest uncertainty.
+---
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![sklearn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+## How I Think About AI Engineering
 
-**[🔗 View on Kaggle](https://kaggle.com/)**
+I see an AI application as more than a model.
 
-</td>
-<td width="50%" valign="top">
+```text
+                    ┌───────────────┐
+                    │     USER      │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │  APPLICATION  │
+                    └───────┬───────┘
+                            │
+              ┌─────────────┼─────────────┐
+              ▼             ▼             ▼
+            LLM            RAG          AGENT
+              │             │             │
+              └─────────────┼─────────────┘
+                            ▼
+                    ┌───────────────┐
+                    │      API      │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │   DEPLOYMENT  │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │    SYSTEM     │
+                    └───────────────┘
+```
 
-### 🕌 Bawsala — Arabic LLM Tutor
-An Arabic-language tutoring system powered by large language models, built to make learning more accessible in Arabic.
+My goal is to progressively understand every layer — from the model and data to the API, infrastructure, and user-facing application.
 
-![LLM](https://img.shields.io/badge/-LLMs-412991?style=flat-square&logo=openai&logoColor=white)
-![NLP](https://img.shields.io/badge/-Arabic%20NLP-00A67E?style=flat-square)
+---
 
-**[🔗 View Project](https://github.com/)**
+## Currently
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+I am actively developing my foundations in:
 
-### 🎥 Sentube — YouTube Sentiment Analysis
-Sentiment analysis pipeline for YouTube content, surfacing audience reaction patterns at scale.
+* Generative AI and LLM applications
+* RAG architectures
+* AI agents
+* FastAPI and API design
+* Docker and deployment
+* Cloud AI
+* LLMOps
+* AI system architecture
 
-![NLP](https://img.shields.io/badge/-NLP-8A2BE2?style=flat-square)
-![Sentiment](https://img.shields.io/badge/-Sentiment%20Analysis-FF6B6B?style=flat-square)
+This profile documents the projects, experiments, and systems I build along the way.
 
-**[🔗 View Project](https://github.com/)**
+---
 
-</td>
-<td width="50%" valign="top">
+## Engineering Principles
 
-### 🖼️ CNN Fake Image Classifier
-Convolutional neural network trained to tell real images apart from AI-generated or manipulated ones.
+**Understand before abstracting.**
+I want to know what is happening underneath the tools I use.
 
-![DL](https://img.shields.io/badge/-Deep%20Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![CV](https://img.shields.io/badge/-Computer%20Vision-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+**Build before over-optimizing.**
+A working system creates something concrete to learn from.
 
-**[🔗 View Project](https://github.com/)**
+**Design for the whole system.**
+A model is only one component of an AI application.
 
-</td>
-</tr>
-</table>
+**Stay curious.**
+Technology changes quickly; strong fundamentals remain useful.
 
-</div>
+---
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+## GitHub Activity
 
-## 🧰 Tech Stack
+<p align="center">
+  <img src="YOUR_GITHUB_STATS_IMAGE" height="165" alt="GitHub statistics">
+  &nbsp;&nbsp;
+  <img src="YOUR_TOP_LANGUAGES_IMAGE" height="165" alt="Top languages">
+</p>
 
-<div align="center">
+---
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,pandas,numpy,jupyter,git,github,vscode,mysql,linux&theme=dark" />
+## Contribution Activity
 
-</div>
+<p align="center">
+  <img src="YOUR_SNAKE_ANIMATION" alt="GitHub contribution activity">
+</p>
 
-<br/>
+---
 
-<div align="center">
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black">
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
-<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white">
-</div>
+## A little more about me
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+I enjoy the combination of **technical depth and creative problem-solving**.
 
-## 📈 GitHub Stats
+I tend to look beyond the obvious implementation:
 
-<div align="center">
+**What is the problem?
+What is the simplest useful system?
+Why this architecture?
+What happens when it scales?**
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0D1117" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical&hide_border=true&background=0D1117" width="48%" />
+That mindset is what I want to carry into AI Engineering.
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
+---
 
-</div>
+<p align="center">
+  <strong>AI Engineering · Generative AI · LLMs · RAG · Agents</strong>
+</p>
 
-<div align="center">
-
-### 🏆 Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1" />
-
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" width="90%"/>
-
-<sub>⚙️ generated via GitHub Actions — <a href="https://github.com/Platane/snk">setup guide here</a></sub>
-
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
-
-<div align="center">
-
-### 💭 Quote of the moment
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-
-<br/><br/>
-
-**"I'd rather ship something real and imperfect than polish something that never sees the light."**
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
-
-</div>
+<p align="center">
+  <sub>Learning continuously. Building deliberately.</sub>
+</p>
