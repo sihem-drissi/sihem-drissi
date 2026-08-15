@@ -100,7 +100,14 @@ Convolutional neural network trained to distinguish authentic images from AI-gen
 
 ## Stack
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,huggingface,fastapi,docker,git,gcp&theme=dark" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
 
 <br><br>
 
@@ -108,9 +115,6 @@ Convolutional neural network trained to distinguish authentic images from AI-gen
 <img src="https://img.shields.io/badge/RAG-8B5CF6?style=for-the-badge&logoColor=white">
 <img src="https://img.shields.io/badge/Vector%20Search-A78BFA?style=for-the-badge&logoColor=white">
 <img src="https://img.shields.io/badge/AI%20Agents-EC4899?style=for-the-badge&logoColor=white">
-<br>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 <img src="https://img.shields.io/badge/LLMOps-F59E0B?style=for-the-badge&logoColor=white">
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
 
