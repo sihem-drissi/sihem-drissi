@@ -54,48 +54,41 @@ Convolutional neural network trained to distinguish authentic images from AI-gen
 
 <br>
 
-## System Architecture
-
-```
-                    user
-                     │
-                     ▼
-                application
-                     │
-        ┌────────────┼────────────┐
-        ▼            ▼            ▼
-       LLM          RAG         agent
-        │            │            │
-        └────────────┼────────────┘
-                      ▼
-                     API
-                      │
-                      ▼
-                deployment
-```
-
-**RAG pipeline:**
-
-```
-documents → chunking → embeddings → vector search
-                                          │
-                                          ▼
-                                  relevant context
-                                          │
-                                          ▼
-                                        LLM
-                                          │
-                                          ▼
-                                grounded response
-```
-
-<br>
-
 ## Stack
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,huggingface,fastapi,docker,git,gcp&theme=dark" />
 
-`LLMs` `RAG` `Vector Search` `Embeddings` `AI Agents` `FastAPI` `Docker` `LLMOps` `scikit-learn`
+<br><br>
+
+<img src="https://img.shields.io/badge/LLMs-6C63FF?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/RAG-8B5CF6?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/Vector%20Search-A78BFA?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/AI%20Agents-EC4899?style=for-the-badge&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/LLMOps-F59E0B?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
+
+<br><br>
+
+## GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" width="48%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+
+<br><br>
+
+## Currently
+
+<img src="https://img.shields.io/badge/Status-Open%20to%20Work-22C55E?style=for-the-badge">
+<img src="https://img.shields.io/badge/Focus-Generative%20AI%20%26%20RAG-6C63FF?style=for-the-badge">
+
+- Deepening production-level RAG and agent design
+- Applying for AI Engineer / GenAI roles
+- Preparing for IELTS
 
 <br>
 
