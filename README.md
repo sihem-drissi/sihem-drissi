@@ -1,256 +1,113 @@
-<p align="center">
-  <img src="./assets/banner.png" width="100%" alt="Sihem Drissi — AI Engineer">
-</p>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:A78BFA&height=160&section=header" width="100%"/>
+
+# Sihem Drissi
+
+**AI Engineer (in progress) · RAG · LLM apps · Agents**
+
+[LinkedIn](YOUR_LINKEDIN_URL) · [Portfolio](YOUR_PORTFOLIO_URL) · [Email](mailto:youremail@example.com)
+
+</div>
 
 <br>
 
-<h1 align="center">Sihem Drissi</h1>
+## about
 
-<p align="center">
-  <strong>AI Engineer · Generative AI · LLM Applications · RAG · AI Agents</strong>
-</p>
+M.Sc. in Data Science, currently job-hunting, based in Algeria. I got into AI through the data science route — cleaning messy datasets, fixing leaky pipelines — and moved toward the layer above it: how you actually turn an LLM into something reliable people can use.
 
-<p align="center">
-  <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="YOUR_PORTFOLIO_URL">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="YOUR_EMAIL_URL">Contact</a>
-</p>
+I don't just want to call an API and call it done. I want to know what's happening in the layer under the layer I'm working in — why a retrieval step returns the wrong chunk, why an agent loop gets stuck, what breaks when you move from a notebook to something with real traffic.
 
----
+<br>
 
-## About
+## where I'm spending my time
 
-I am an early-career **AI Engineer** with a background in Data Science, focused on understanding how intelligent applications are designed, built, and brought into production.
+| area | what that means for me right now |
+|---|---|
+| **generative AI** | LLM apps, prompting, actually reading how Transformers work instead of trusting the abstraction |
+| **RAG** | embeddings, vector search, retrieval that returns the *right* context, not just *a* context |
+| **agents** | tool use, multi-step workflows, the ones that don't fall apart outside the happy path |
+| **AI engineering** | APIs, model serving, the plumbing between "it works in my notebook" and "it works" |
+| **deployment** | Docker, cloud AI, LLMOps |
 
-My current work sits at the intersection of **Generative AI, LLM applications, RAG, AI agents, APIs, and LLMOps**.
+<br>
 
-I am less interested in simply using a tool than in understanding the system behind it — its architecture, trade-offs, limitations, and path to production.
+## projects
 
-> **Build with purpose. Understand the system. Keep improving.**
+### Bawsala — Arabic LLM tutor
+Built to teach in Arabic, not translate English answers into it. This is where I actually learned RAG isn't a library you import — it's a design problem: how you chunk, what you retrieve, how you keep the model grounded instead of confidently making things up.
+→ [repo](https://github.com/)
 
----
+### Stack Overflow salary prediction
+A full regression pipeline I rebuilt more times than I'd like to admit — target encoding, tuned ensembling, bootstrap confidence intervals instead of one number pretending to be certain. Proof I can do the unglamorous data work everything else gets built on.
+→ [kaggle](https://kaggle.com/)
 
-## Focus
+### Sentube — YouTube sentiment analysis
+Wanted to know if comments actually matched the vibe of the video. Turns out, not always.
+→ [repo](https://github.com/)
 
-| Area                  | Current Focus                                 |
-| --------------------- | --------------------------------------------- |
-| **Generative AI**     | LLM applications, prompting, Transformers     |
-| **Knowledge Systems** | RAG, embeddings, vector search, retrieval     |
-| **AI Agents**         | Tool use, workflows, agentic systems          |
-| **AI Engineering**    | APIs, model serving, application architecture |
-| **Deployment**        | Docker, cloud AI, LLMOps                      |
-| **Foundations**       | Python, ML, data processing, system design    |
+### CNN fake image classifier
+A model trained to catch AI-generated images. Felt like the right thing to build in this decade.
+→ [repo](https://github.com/)
 
----
+<br>
 
-## Technology
+## how I think about an AI system
 
-<p align="center">
+Not just "the model." The whole thing.
 
-**AI & Machine Learning**
-
-`Python` · `PyTorch` · `Scikit-learn` · `Transformers`
-
-**Generative AI**
-
-`LLMs` · `RAG` · `Embeddings` · `Vector Search` · `AI Agents`
-
-**Backend**
-
-`FastAPI` · `Pydantic` · `REST APIs` · `Uvicorn`
-
-**Cloud & Infrastructure**
-
-`Docker` · `Git` · `GCP` · `Vertex AI` · `LLMOps`
-
-</p>
-
----
-
-## Selected Work
-
-### Stack Overflow Developer Survey — Salary Prediction
-
-A machine learning project using the Stack Overflow Developer Survey to investigate and predict developer compensation.
-
-The project focuses on building a complete, reproducible ML workflow rather than simply training a model.
-
-**Highlights**
-
-* Exploratory data analysis and data-quality assessment
-* Salary distribution and outlier analysis
-* Feature engineering
-* High-cardinality categorical encoding
-* Target encoding
-* `Pipeline` and `ColumnTransformer`
-* Leakage prevention
-* Model comparison
-* Random Forest and HistGradientBoosting
-* Model evaluation and interpretation
-
-**Repository:** `YOUR_SALARY_PROJECT_URL`
-
----
-
-### Retrieval-Augmented Generation
-
-Exploring how LLM applications can combine generative models with external knowledge.
-
-```text
-Documents
-    ↓
-Processing
-    ↓
-Embeddings
-    ↓
-Vector Search
-    ↓
-Relevant Context
-    ↓
-LLM
-    ↓
-Grounded Response
+```
+                 user
+                   │
+                   ▼
+              application
+                   │
+        ┌──────────┼──────────┐
+        ▼          ▼          ▼
+       LLM        RAG       agent
+        │          │          │
+        └──────────┼──────────┘
+                   ▼
+                  API
+                   │
+                   ▼
+              deployment
 ```
 
-The goal is to understand RAG as a **system architecture**, not simply as a library feature.
+RAG specifically, the way I keep coming back to it:
 
----
-
-### AI Model Serving
-
-Building APIs around machine-learning models using FastAPI.
-
-```text
-Client
-  ↓
-REST API
-  ↓
-Validation
-  ↓
-Preprocessing
-  ↓
-Model
-  ↓
-Prediction
-  ↓
-JSON Response
+```
+documents → chunking → embeddings → vector search
+                                          │
+                                          ▼
+                                  relevant context
+                                          │
+                                          ▼
+                                        LLM
+                                          │
+                                          ▼
+                                grounded response
 ```
 
-This work is helping me bridge the gap between **machine learning experimentation and deployable AI applications**.
+<br>
 
----
+## stack
 
-## How I Think About AI Engineering
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,huggingface,fastapi,docker,git,gcp&theme=dark" />
 
-I see an AI application as more than a model.
+`LLMs` `RAG` `Vector Search` `Embeddings` `Agents` `FastAPI` `Docker` `LLMOps`
 
-```text
-                    ┌───────────────┐
-                    │     USER      │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │  APPLICATION  │
-                    └───────┬───────┘
-                            │
-              ┌─────────────┼─────────────┐
-              ▼             ▼             ▼
-            LLM            RAG          AGENT
-              │             │             │
-              └─────────────┼─────────────┘
-                            ▼
-                    ┌───────────────┐
-                    │      API      │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │   DEPLOYMENT  │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │    SYSTEM     │
-                    └───────────────┘
-```
+<br>
 
-My goal is to progressively understand every layer — from the model and data to the API, infrastructure, and user-facing application.
+## a few things I actually believe
 
----
+- Understand it before you abstract it away
+- A working, imperfect system teaches you more than a perfect plan
+- The model is one piece — the system around it is the actual engineering
+- I'd rather be honest about what I don't know yet than fake it
 
-## Currently
+<br>
 
-I am actively developing my foundations in:
-
-* Generative AI and LLM applications
-* RAG architectures
-* AI agents
-* FastAPI and API design
-* Docker and deployment
-* Cloud AI
-* LLMOps
-* AI system architecture
-
-This profile documents the projects, experiments, and systems I build along the way.
-
----
-
-## Engineering Principles
-
-**Understand before abstracting.**
-I want to know what is happening underneath the tools I use.
-
-**Build before over-optimizing.**
-A working system creates something concrete to learn from.
-
-**Design for the whole system.**
-A model is only one component of an AI application.
-
-**Stay curious.**
-Technology changes quickly; strong fundamentals remain useful.
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="YOUR_GITHUB_STATS_IMAGE" height="165" alt="GitHub statistics">
-  &nbsp;&nbsp;
-  <img src="YOUR_TOP_LANGUAGES_IMAGE" height="165" alt="Top languages">
-</p>
-
----
-
-## Contribution Activity
-
-<p align="center">
-  <img src="YOUR_SNAKE_ANIMATION" alt="GitHub contribution activity">
-</p>
-
----
-
-## A little more about me
-
-I enjoy the combination of **technical depth and creative problem-solving**.
-
-I tend to look beyond the obvious implementation:
-
-**What is the problem?
-What is the simplest useful system?
-Why this architecture?
-What happens when it scales?**
-
-That mindset is what I want to carry into AI Engineering.
-
----
-
-<p align="center">
-  <strong>AI Engineering · Generative AI · LLMs · RAG · Agents</strong>
-</p>
-
-<p align="center">
-  <sub>Learning continuously. Building deliberately.</sub>
-</p>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:A78BFA&height=100&section=footer" width="100%"/>
+</div>
